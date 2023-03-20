@@ -1,0 +1,46 @@
+at start move to that folder cd foldername , do npm install and then do npm start
+when we click on any skin code we generate a id because we will store that data which that id 
+
+states ---
+first state will be document
+for a document we will maintain two things first one is id and second one is skin code 
+
+on contact page ---
+and second state will be contact 
+we had stored data in an object which is storing data as key value pair 
+like first name is stored as FNAME
+storing data in key value pair because while going to next page we want that data to stay back so storing is important
+
+then object in state will be of education which will be starting null and key value pair if data is not null previously 
+
+so these were the final three states 
+
+Next Actions --- 
+for document we will have two action 1. set document(id,skincd) and 2. update(skincd) (we had prev id)
+for contact we will have two actons 1. add and 2. update 
+for education page we will again have 2 actions add and update 
+
+resume template is made as private route 
+
+npm install uuid
+install these three packages npm install redux react-redux redux-devtools-extension 
+
+
+https://blog.logrocket.com/the-definitive-guide-to-scss/
+http://react-redux-firebase.com/docs/integrations/thunks.html
+https://console.firebase.google.com/u/0/project/resume-3f8c3/overview
+
+*****try to keep a good password while logging****
+
+link for cloud firestore --- https://console.firebase.google.com/u/0/project/resume-builder-final-8968e/firestore/data/~2Fusers~2FDpynEmooYDS1cea2xSOjHY076Cp2
+project name -- resume-builder-final
+logged in account -- happymailid@gmail.com
+password -- happy1234#
+
+
+https://mui.com/material-ui/getting-started/installation/
+https://mui.com/material-ui/api/button/#main-content
+https://mui.com/material-ui/api/card/
+https://mui.com/material-ui/api/text-field/#main-content
+https://github.com/udai1931/ReactYT/tree/master/reels
+https://console.firebase.google.com/u/0/project/resume-builder-364f4/firestore
